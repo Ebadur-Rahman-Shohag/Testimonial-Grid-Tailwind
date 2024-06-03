@@ -1,3 +1,9 @@
+import quoteImage from "../src/assets/images/bg-pattern-quotation.svg";
+import danielImage from "../src/assets/images/image-daniel.jpg";
+import jonathanImage from "../src/assets/images/image-jonathan.jpg";
+import kiraImage from "../src/assets/images/image-kira.jpg";
+import jeanetteImage from "../src/assets/images/image-jeanette.jpg";
+import patrickImage from "../src/assets/images/image-patrick.jpg";
 function App() {
   return (
     <>
@@ -10,13 +16,13 @@ function App() {
             <div className="relative p-10 rounded-xl text-white bg-purple-700 md:col-span-2">
               {/* Quotes Image */}
               <img
-                src="../src/assets/images/bg-pattern-quotation.svg"
+                src={quoteImage}
                 className="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
               />
               {/* Box header */}
               <div className="flex z-10 space-x-4 ">
                 <img
-                  src="../src/assets/images/image-daniel.jpg"
+                  src={danielImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
@@ -47,7 +53,7 @@ function App() {
               {/* Box header */}
               <div className="flex  space-x-4 ">
                 <img
-                  src="../src/assets/images/image-jonathan.jpg"
+                  src={jonathanImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
@@ -77,7 +83,7 @@ function App() {
               {/* Box header */}
               <div className="flex  space-x-4 ">
                 <img
-                  src="../src/assets/images/image-kira.jpg"
+                  src={kiraImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
@@ -110,7 +116,7 @@ function App() {
               {/* Box header */}
               <div className="flex  space-x-4 ">
                 <img
-                  src="../src/assets/images/image-jeanette.jpg"
+                  src={jeanetteImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
@@ -134,7 +140,7 @@ function App() {
               {/* Box header */}
               <div className="flex  space-x-4 ">
                 <img
-                  src="../src/assets/images/image-patrick.jpg"
+                  src={patrickImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
@@ -163,7 +169,7 @@ function App() {
               {/* Box header */}
               <div className="flex  space-x-4 ">
                 <img
-                  src="../src/assets/images/image-kira.jpg"
+                  src={kiraImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
