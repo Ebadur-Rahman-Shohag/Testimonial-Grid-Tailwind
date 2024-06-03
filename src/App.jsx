@@ -25,9 +25,9 @@ function App() {
                   src={danielImage}
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
-                <div className="text-sm">
-                  <h4>Daniel Clifford</h4>
-                  <p>Verified Graduate</p>
+                <div className="text-sm ">
+                  <h4 className="sm:z-10">Daniel Clifford</h4>
+                  <p className="sm:z-10">Verified Graduate</p>
                 </div>
               </div>
               {/* Large Text */}
@@ -173,7 +173,7 @@ function App() {
                   className="w-10 h-10 ring-2 ring-purple-300 rounded-full"
                 />
                 <div className="text-sm">
-                  <h4 className="opacity-0">Kira Whittle</h4>
+                  <h4 className="opacity-90">Kira Whittle</h4>
                   <p className="opacity-50">Verified Graduate</p>
                 </div>
               </div>
